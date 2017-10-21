@@ -1,0 +1,62 @@
+﻿<Window x:Class="WpfApplication1.Add_Contact"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        mc:Ignorable="d"
+        Title="Add_Contact" Height="350" Width="330" WindowStartupLocation="CenterScreen">
+    <Canvas>
+        <Image Source="d.png" HorizontalAlignment="Left" Height="100" Margin="103,10,0,0" VerticalAlignment="Top" Width="100" Name="image"/>
+        <Button Content="Open" HorizontalAlignment="Left" Margin="223,90,0,0" VerticalAlignment="Top" Name="open_image" Click="open_image_Click"/>
+        <ListBox x:Name="listBox" Height="128" Canvas.Left="10" Canvas.Top="128" Width="289">
+            <WrapPanel>
+                <Label Content="Name"/>
+                <StackPanel Margin="2">
+                    <TextBox Name="name" Height="23" Width="200"/>
+                </StackPanel>
+            </WrapPanel>
+
+            <WrapPanel>
+                <Label Content="Phone"/>
+                <StackPanel Name="phonePanel">
+                    <TextBox Name="phone" Height="23" Width="200"/>
+                </StackPanel>
+                <StackPanel>
+                    <Button Name="phonePlus" Content="+" Click="phonePlus_Click"/>
+                </StackPanel>
+            </WrapPanel>
+
+            <WrapPanel>
+                <Label Content="Email"/>
+                <StackPanel Name="emailPanel" Margin="5,0,0,0">
+                    <TextBox Name="email" Height="23" Width="200"/>
+                </StackPanel>
+                <StackPanel>
+                    <Button Name="emailPlus" Content="+" Click="emailPlus_Click"/>
+                </StackPanel>
+            </WrapPanel>
+        </ListBox>
+
+        <!--<Label Content="Name:" HorizontalAlignment="Left" Margin="10,140,0,0" VerticalAlignment="Top" Width="46"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="61,144,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="221" Name="name"/>-->
+        <!--<Label Content="Phone:" HorizontalAlignment="Left" Margin="10,180,0,0" VerticalAlignment="Top" Width="46"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="61,180,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="221" Name="phone"/>
+        <Label Content="Email:" HorizontalAlignment="Left" Margin="10,211,0,0" VerticalAlignment="Top" Width="46"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="61,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221" Name="email"/>-->
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Click="Button_Click" Canvas.Left="209" Canvas.Top="261">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="save.png" Height="30" Width="30"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Name="cancel" Click="cancel_Click" Canvas.Left="65" Canvas.Top="261">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="cancel.png" Height="30" Width="30"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+    </Canvas>
+</Window>

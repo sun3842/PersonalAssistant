@@ -1,0 +1,7 @@
+C:\Users\Musfi\Desktop\Solution1\database\bin\Debug\database.dll
+C:\Users\Musfi\Desktop\Solution1\database\bin\Debug\database.pdb
+C:\Users\Musfi\Desktop\Solution1\database\bin\Debug\contact.dll
+C:\Users\Musfi\Desktop\Solution1\database\bin\Debug\contact.pdb
+C:\Users\Musfi\Desktop\Solution1\database\obj\Debug\database.csprojResolveAssemblyReference.cache
+C:\Users\Musfi\Desktop\Solution1\database\obj\Debug\database.dll
+C:\Users\Musfi\Desktop\Solution1\database\obj\Debug\database.pdb

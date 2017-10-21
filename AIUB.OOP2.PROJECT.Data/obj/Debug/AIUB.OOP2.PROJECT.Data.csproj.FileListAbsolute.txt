@@ -1,0 +1,9 @@
+C:\Users\Musfi\Desktop\AIUB.OOP2.PROJECT\AIUB.OOP2.PROJECT.Data\bin\Debug\AIUB.OOP2.PROJECT.Data.dll
+C:\Users\Musfi\Desktop\AIUB.OOP2.PROJECT\AIUB.OOP2.PROJECT.Data\bin\Debug\AIUB.OOP2.PROJECT.Data.pdb
+C:\Users\Musfi\Desktop\AIUB.OOP2.PROJECT\AIUB.OOP2.PROJECT.Data\bin\Debug\contact.dll
+C:\Users\Musfi\Desktop\AIUB.OOP2.PROJECT\AIUB.OOP2.PROJECT.Data\bin\Debug\database.dll
+C:\Users\Musfi\Desktop\AIUB.OOP2.PROJECT\AIUB.OOP2.PROJECT.Data\bin\Debug\contact.pdb
+C:\Users\Musfi\Desktop\AIUB.OOP2.PROJECT\AIUB.OOP2.PROJECT.Data\bin\Debug\database.pdb
+C:\Users\Musfi\Desktop\AIUB.OOP2.PROJECT\AIUB.OOP2.PROJECT.Data\obj\Debug\AIUB.OOP2.PROJECT.Data.csprojResolveAssemblyReference.cache
+C:\Users\Musfi\Desktop\AIUB.OOP2.PROJECT\AIUB.OOP2.PROJECT.Data\obj\Debug\AIUB.OOP2.PROJECT.Data.dll
+C:\Users\Musfi\Desktop\AIUB.OOP2.PROJECT\AIUB.OOP2.PROJECT.Data\obj\Debug\AIUB.OOP2.PROJECT.Data.pdb

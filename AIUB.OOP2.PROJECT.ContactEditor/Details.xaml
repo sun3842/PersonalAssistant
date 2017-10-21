@@ -1,0 +1,78 @@
+﻿<Window x:Class="WpfApplication1.Details"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        mc:Ignorable="d"
+        Title="Details" Height="350" Width="330" WindowStartupLocation="CenterScreen">
+    <Grid RenderTransformOrigin="0.535,0.487">
+        <Image HorizontalAlignment="Left" Height="100" Margin="109,10,0,0" VerticalAlignment="Top" Width="100" Name="image"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="137" VerticalAlignment="Top" Width="302" Margin="10,128,0,0">
+            <WrapPanel>
+                <Label Content="Name"/>
+                <StackPanel Margin="2">
+                    <TextBox Name="name" Height="23" Width="200"/>
+                </StackPanel>
+            </WrapPanel>
+
+            <WrapPanel>
+                <Label Content="Phone"/>
+                <StackPanel Name="phonePanel1">
+                    <TextBox Name="phone" Height="23" Width="200"/>
+                </StackPanel>
+                <StackPanel>
+                    <Button Name="phonePlusEdit" Content="+" Click="phonePlusEdit_Click"/>
+                </StackPanel>
+            </WrapPanel>
+
+            <WrapPanel>
+                <Label Content="Email"/>
+                <StackPanel Name="emailPanel1" Margin="5,0,0,0">
+                    <TextBox Name="email" Height="23" Width="200"/>
+                </StackPanel>
+                <StackPanel>
+                    <Button Name="emailPlusEdit" Content="+" Click="emailPlusEdit_Click"/>
+                </StackPanel>
+            </WrapPanel>
+        </ListBox>
+        <!--<Label Content="Name:" HorizontalAlignment="Left" Margin="10,137,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="59,140,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="223" Name="name"/>
+        <Label Content="Phone:" HorizontalAlignment="Left" Margin="8,182,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="59,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223" Name="phone"/>
+        <Label Content="Email:" HorizontalAlignment="Left" Margin="10,225,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="59,228,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="223" Name="email"/>-->
+        <Button HorizontalAlignment="Left" Margin="59,279,0,0" VerticalAlignment="Top" Name="back" Click="back_Click">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="back.png" Height="30" Width="30"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="165,279,0,0" VerticalAlignment="Top" Name="update" Click="update_Click">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="edit.png" Height="30" Width="30"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="200,279,0,0" VerticalAlignment="Top" Name="delete" Click="delete_Click">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="delete.png" Height="30" Width="30"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Content="Open" HorizontalAlignment="Left" Margin="232,90,0,0" VerticalAlignment="Top" Name="image_update" Click="image_update_Click"/>
+        <Button HorizontalAlignment="Left" Margin="235,279,0,0" VerticalAlignment="Top" Name="Save" Click="Save_Click_1">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="save.png" Height="30" Width="30"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        
+
+
+    </Grid>
+</Window>

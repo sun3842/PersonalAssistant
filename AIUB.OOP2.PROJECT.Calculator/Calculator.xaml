@@ -1,0 +1,63 @@
+﻿<Window x:Class="AIUB.OOP2.PROJECT.Calculator.Calculator"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AIUB.OOP2.PROJECT.Calculator"
+        mc:Ignorable="d"
+        Title="Calculator" Height="350" Width="300" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="6*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Margin="10" Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Margin="2" Grid.Row="2" Grid.Column="0" Name="one" Content="1" Click="one_Click"/>
+            <Button Margin="2" Grid.Row="2" Grid.Column="1" Name="two" Content="2" Click="two_Click"/>
+            <Button Margin="2" Grid.Row="2" Grid.Column="2" Name="three" Content="3" Click="three_Click"/>
+            <Button Margin="2" Grid.Row="1" Grid.Column="0" Name="four" Content="4" Click="four_Click"/>
+            <Button Margin="2" Grid.Row="1" Grid.Column="1" Name="five" Content="5" Click="five_Click"/>
+            <Button Margin="2" Grid.Row="1" Grid.Column="2" Name="six" Content="6" Click="six_Click"/>
+            <Button Margin="2" Grid.Row="0" Grid.Column="0" Name="seven" Content="7" Click="seven_Click"/>
+            <Button Margin="2" Grid.Row="0" Grid.Column="1" Name="eight" Content="8" Click="eight_Click"/>
+            <Button Margin="2" Grid.Row="0" Grid.Column="2" Name="nine" Content="9" Click="nine_Click"/>
+            <Button Margin="0,2,2,2" Grid.Row="0" Grid.Column="3" Name="div" Content="/" HorizontalAlignment="Right" Width="64" Click="div_Click"/>
+            <Button Margin="2" Grid.Row="1" Grid.Column="3" Name="mul" Content="*" Click="mul_Click"/>
+            <Button Margin="2" Grid.Row="2" Grid.Column="3" Name="sub" Content="-" Click="sub_Click"/>
+            <Button Margin="2" Grid.Row="3" Grid.Column="3" Name="sum" Content="+" Click="sum_Click"/>
+            <Button Margin="2" Grid.Row="3" Grid.Column="2" Name="equal" Content="=" Click="equal_Click"/>
+            <Button Margin="2" Grid.Row="3" Grid.Column="1" Name="zero" Content="0" Click="zero_Click"/>
+            <Grid Grid.Row="3" Grid.Column="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Button Margin="0,2,2,2" Grid.Row="1" Grid.Column="0" Name="C" Content="C" HorizontalAlignment="Right" Width="41" Click="C_Click"/>
+                    <Button Margin="0,2,2,2" Grid.Row="0" Grid.Column="0" Name="CE" Content="CE" HorizontalAlignment="Right" Width="41" Click="CE_Click"/>
+                </Grid>
+                <!--<Button Margin="0,2,2,2" Grid.Row="0" Grid.Column="0" Name="CE" Content="CE" HorizontalAlignment="Right" Width="41" Click="CE_Click"/>-->
+                <Button Margin="2" Grid.Row="0" Grid.Column="1" Name="dot" Content="." Click="dot_Click"/>
+            </Grid>
+        </Grid>
+        <TextBox Grid.Row="0" Margin="10,5" Name="textBox"/>
+    </Grid>
+</Window>

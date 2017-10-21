@@ -1,0 +1,9 @@
+C:\Users\Musfi\Desktop\AIUB.OOP2.PROJECT\AIUB.OOP2.PROJECT.Database\bin\Debug\AIUB.OOP2.PROJECT.Database.dacpac
+C:\Users\Musfi\Desktop\AIUB.OOP2.PROJECT\AIUB.OOP2.PROJECT.Database\bin\Debug\AIUB.OOP2.PROJECT.Database.dll
+C:\Users\Musfi\Desktop\AIUB.OOP2.PROJECT\AIUB.OOP2.PROJECT.Database\bin\Debug\AIUB.OOP2.PROJECT.Database.pdb
+C:\Users\Musfi\Desktop\AIUB.OOP2.PROJECT\AIUB.OOP2.PROJECT.Database\obj\Debug\Model.xml
+C:\Users\Musfi\Desktop\AIUB.OOP2.PROJECT\AIUB.OOP2.PROJECT.Database\obj\Debug\refactor.xml
+C:\Users\Musfi\Desktop\AIUB.OOP2.PROJECT\AIUB.OOP2.PROJECT.Database\obj\Debug\postdeploy.sql
+C:\Users\Musfi\Desktop\AIUB.OOP2.PROJECT\AIUB.OOP2.PROJECT.Database\obj\Debug\predeploy.sql
+C:\Users\Musfi\Desktop\AIUB.OOP2.PROJECT\AIUB.OOP2.PROJECT.Database\obj\Debug\AIUB.OOP2.PROJECT.Database.dll
+C:\Users\Musfi\Desktop\AIUB.OOP2.PROJECT\AIUB.OOP2.PROJECT.Database\obj\Debug\AIUB.OOP2.PROJECT.Database.pdb

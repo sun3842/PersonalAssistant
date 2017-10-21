@@ -1,0 +1,5 @@
+C:\Users\Musfi\Desktop\Solution1\contact\bin\Debug\contact.dll
+C:\Users\Musfi\Desktop\Solution1\contact\bin\Debug\contact.pdb
+C:\Users\Musfi\Desktop\Solution1\contact\obj\Debug\contact.csprojResolveAssemblyReference.cache
+C:\Users\Musfi\Desktop\Solution1\contact\obj\Debug\contact.dll
+C:\Users\Musfi\Desktop\Solution1\contact\obj\Debug\contact.pdb

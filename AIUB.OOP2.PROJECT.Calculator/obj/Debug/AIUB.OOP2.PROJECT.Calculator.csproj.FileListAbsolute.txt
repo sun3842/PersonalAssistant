@@ -1,0 +1,14 @@
+C:\Users\Musfi\Desktop\AIUB.OOP2.PROJECT\AIUB.OOP2.PROJECT.Calculator\bin\Debug\AIUB.OOP2.PROJECT.Calculator.exe.config
+C:\Users\Musfi\Desktop\AIUB.OOP2.PROJECT\AIUB.OOP2.PROJECT.Calculator\bin\Debug\AIUB.OOP2.PROJECT.Calculator.exe
+C:\Users\Musfi\Desktop\AIUB.OOP2.PROJECT\AIUB.OOP2.PROJECT.Calculator\bin\Debug\AIUB.OOP2.PROJECT.Calculator.pdb
+C:\Users\Musfi\Desktop\AIUB.OOP2.PROJECT\AIUB.OOP2.PROJECT.Calculator\obj\Debug\AIUB.OOP2.PROJECT.Calculator.csprojResolveAssemblyReference.cache
+C:\Users\Musfi\Desktop\AIUB.OOP2.PROJECT\AIUB.OOP2.PROJECT.Calculator\obj\Debug\Calculator.g.cs
+C:\Users\Musfi\Desktop\AIUB.OOP2.PROJECT\AIUB.OOP2.PROJECT.Calculator\obj\Debug\App.g.cs
+C:\Users\Musfi\Desktop\AIUB.OOP2.PROJECT\AIUB.OOP2.PROJECT.Calculator\obj\Debug\AIUB.OOP2.PROJECT.Calculator_MarkupCompile.cache
+C:\Users\Musfi\Desktop\AIUB.OOP2.PROJECT\AIUB.OOP2.PROJECT.Calculator\obj\Debug\AIUB.OOP2.PROJECT.Calculator_MarkupCompile.lref
+C:\Users\Musfi\Desktop\AIUB.OOP2.PROJECT\AIUB.OOP2.PROJECT.Calculator\obj\Debug\Calculator.baml
+C:\Users\Musfi\Desktop\AIUB.OOP2.PROJECT\AIUB.OOP2.PROJECT.Calculator\obj\Debug\AIUB.OOP2.PROJECT.Calculator.g.resources
+C:\Users\Musfi\Desktop\AIUB.OOP2.PROJECT\AIUB.OOP2.PROJECT.Calculator\obj\Debug\AIUB.OOP2.PROJECT.Calculator.Properties.Resources.resources
+C:\Users\Musfi\Desktop\AIUB.OOP2.PROJECT\AIUB.OOP2.PROJECT.Calculator\obj\Debug\AIUB.OOP2.PROJECT.Calculator.csproj.GenerateResource.Cache
+C:\Users\Musfi\Desktop\AIUB.OOP2.PROJECT\AIUB.OOP2.PROJECT.Calculator\obj\Debug\AIUB.OOP2.PROJECT.Calculator.exe
+C:\Users\Musfi\Desktop\AIUB.OOP2.PROJECT\AIUB.OOP2.PROJECT.Calculator\obj\Debug\AIUB.OOP2.PROJECT.Calculator.pdb

@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        mc:Ignorable="d"
+        Title="Startup Window" Height="350" Width="300">
+    <Canvas>
+        <Button Name="calculator" Canvas.Left="36" Canvas.Top="166" Click="calculator_Click">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="calculator.png" Height="80" Width="80"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+        <Button Name="contact" Canvas.Left="167" Canvas.Top="166" Click="contact_Click">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="contacts.png" Height="80" Width="80"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+    </Canvas>
+</Window>
+
